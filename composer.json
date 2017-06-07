@@ -1,0 +1,23 @@
+{
+  "name": "brapastor/container",
+  "description": "This is a demo IoC, please do not use it in production",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "brapastor",
+      "email": "brapastor@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^6.1",
+    "mockery/mockery": "^0.9.9"
+  },
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "brapastor\\Container\\": "src/"
+    }
+  }
+}
